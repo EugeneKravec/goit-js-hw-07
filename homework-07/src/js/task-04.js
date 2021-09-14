@@ -1,7 +1,7 @@
 const counterValue = parseInt(document.getElementById('value').innerText, 10)
 console.dir(counterValue);
 
-const decrementByData = document.querySelector('data-action')
+const decrementByData = document.querySelector("[data-action = 'decrement']")
 console.log(decrementByData);
 
 function increment() {
